@@ -55,7 +55,7 @@ export default function Warranty() {
                     <p className="text-gray-500 italic mt-2">Citation: Section 7</p>
                 </div>
                 
-                <div className="bg-gray-100 rounded-lg mt-6">
+                <div className="bg-gray-100 rounded-lg mt-6 p-6">
                     <h2 className="font-semibold text-gray-800">Conclusion</h2>
                     <p className="text-gray-600">Adobe provides only a limited warranty for purchased software, valid for a short period (90 days or less).</p>
                     <p className="text-gray-600">Most software versions (trials, patches, online services, free downloads) come with NO warranty and are provided "as-is."</p>
