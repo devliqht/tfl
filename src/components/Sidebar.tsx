@@ -61,7 +61,7 @@ const [isOpen, setIsOpen] = useState(false);
                     </h1>
                 </div>
                 <Sheet open={isOpen} onOpenChange={setIsOpen}>
-                    <SheetContent side="left" className="w-72 text-white">
+                    <SheetContent side="left" className="w-72 text-white max-h-screen overflow-y-auto ">
                         <div className="flex flex-col space-y-6 py-4 px-2">
                             <div className="flex justify-between items-center">
                             <h1 className="text-3xl font-bold tracking-tight bg-gradient-to-b from-[#e11f37] via-[#cc0129] to-[#b3011b] bg-clip-text text-transparent">
