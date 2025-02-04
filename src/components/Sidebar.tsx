@@ -43,7 +43,7 @@ const [isOpen, setIsOpen] = useState(false);
         </div>
         <footer className="text-sm text-gray-500 mt-4 sm:mt-6">
             <img src="/1.svg" className="h-auto w-24" />
-            <p>© {new Date().getFullYear()} Group Adobe. <br />GE-TFL <br />Submitted to <br />Ms. Mary Rose Loquinario</p>
+            <p className="text-sm">© {new Date().getFullYear()} Group Adobe. <br />GE-TFL <br />Submitted to <br />Ms. Mary Rose Loquinario</p>
         </footer>
         </aside>
         )}
