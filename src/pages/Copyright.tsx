@@ -8,7 +8,7 @@ export default function Copyright() {
                 <div className="max-w-3xl p-0 md:py-6 space-y-8 text-gray-800 pb-8">
                     
                 <section className="space-y-5" id="copyright-infringement">
-                    <h2 className="text-4xl font-bold text-red-600">Copyright Infringement</h2>
+                    <h2 className="text-4xl md:text-5xl font-bold text-red-600">Copyright Infringement</h2>
                     <Author author="Simon Gabriel Gementiza" lastEdited="Feb 4 2025 10:52 PM"></Author>
                     {/* Intellectual Property Ownership */}
                     <h3 className="text-2xl font-semibold" id="intellectual-property-ownership">
