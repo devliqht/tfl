@@ -6,7 +6,9 @@ const Restrictions = lazy(() => import("@/pages/Restrictions.tsx"));
 const Warranty = lazy(() => import("@/pages/Warranty.tsx"));
 const Liability = lazy(() => import("@/pages/Liability.tsx"));
 const RelatedAgreements = lazy(() => import("@/pages/RelatedAgreements.tsx"));
+const GoverningLaw = lazy(() => import("@/pages/GoverningLaw.tsx"));
 const Termination = lazy(() => import("@/pages/Termination.tsx"));
+const Introduction = lazy(() => import("@/pages/Introduction.tsx"));
 const Layout = lazy(() => import("@/components/Layout.tsx"));
 
 const routes = [
@@ -21,8 +23,9 @@ const routes = [
       { path: "/warranty-disclaimer", element: <Warranty /> },
       { path: "/limitation-of-liability", element: <Liability /> },
       { path: "/related-agreements", element: <RelatedAgreements /> },
-      { path: "/governing-law", element: <Hero /> },
+      { path: "/governing-law", element: <GoverningLaw /> },
       { path: "/term-and-termination", element: <Termination /> },
+      { path: "/introduction", element: <Introduction />}
     ],
   },
 ];

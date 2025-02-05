@@ -16,6 +16,7 @@ const navItems = [
   { to: "/related-agreements", label: "Related Agreements" },
   { to: "/governing-law", label: "Governing Law" },
   { to: "/term-and-termination", label: "Term and Termination" },
+  { to: "/introduction", label: "Introduction" },
 ];
 
 export function Sidebar() {
@@ -42,7 +43,6 @@ const [isOpen, setIsOpen] = useState(false);
             </nav>
         </div>
         <footer className="text-sm text-gray-500 mt-4 sm:mt-6">
-            <img src="/1.svg" className="h-auto w-24" />
             <p className="text-sm">© {new Date().getFullYear()} Group Adobe. <br />GE-TFL <br />Submitted to <br />Ms. Mary Rose Loquinario</p>
         </footer>
         </aside>
@@ -79,6 +79,10 @@ const [isOpen, setIsOpen] = useState(false);
                                     <NavLink key={item.to} to={item.to} label={item.label} onClick={() => setIsOpen(false)} mobile={true}/>
                                 ))}
                             </nav>
+                            <div className="w-full p-4 text-center text-sm bg-white flex flex-col items-center">
+                                    <p className="lexend-deca-700 text-black tracking-tight">Group Adobe</p>
+                                    <p className="text-gray-400 text-sm">GE-TFL</p>
+                                </div>
                         </div>
                     </SheetContent>
                 </Sheet>

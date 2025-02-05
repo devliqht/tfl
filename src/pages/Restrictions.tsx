@@ -6,7 +6,7 @@ export default function Restrictions() {
         <>
             <AnimatedContainer>
                 <div className="max-w-3xl p-0 md:py-6 space-y-8 text-gray-800 pb-8">     
-                <section className="space-y-5" id="copyright-infringement">
+                <section className="space-y-5">
                     <h1 className="font-bold text-red-600" id="restrictions-of-usage">Restrictions of Usage</h1>
                     <Author author="Derrick Angelo Yu" lastEdited="Feb 4 2025 11:13 PM"></Author>
 

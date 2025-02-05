@@ -6,7 +6,7 @@ export default function Termination() {
         <>
             <AnimatedContainer>
                 <div className="max-w-3xl p-0 md:py-6 space-y-8 text-gray-800 pb-8">     
-                <section className="space-y-5" id="copyright-infringement">
+                <section className="space-y-5">
                 <h1 className="text-red-600 font-bold">
                         License Term and Termination
                     </h1>
