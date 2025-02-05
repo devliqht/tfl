@@ -47,7 +47,7 @@ const Introduction: React.FC = () => {
           ))}
         </div>
         <AnimatedContainer delay={500}>
-        <img className="h-auto w-96 mx-auto" src="/qr.png" />
+        <img className="h-auto w-96 mx-auto my-4" src="/qr.png" />
         </AnimatedContainer>
       </div>
     </div>
