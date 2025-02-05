@@ -20,6 +20,7 @@
   --white: #fdfefe;
 }
 
+
 .adobe-bg {
   background-image: url('/bg.webp');
   background-size: cover; /* Optional: makes the background cover the entire element */

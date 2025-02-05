@@ -1,6 +1,5 @@
 import React from "react";
 import { AnimatedContainer } from "@/components/Containers";
-import { useTrail } from "@react-spring/web"
 
 const teamMembers = [
   { name: "Matt Erron Cabarrubias", img: "/matt.jpg" },
@@ -14,14 +13,7 @@ const teamMembers = [
   { name: "Jemuel Valencia", img: "/jemuel.jpg" },
 ];
 
-const Introduction: React.FC = () => {
-    const trail = useTrail(teamMembers.length, {
-        from: { opacity: 0, transform: "translateY(20px)" },
-        to: { opacity: 1, transform: "translateY(0px)" },
-        delay: 300, // Initial delay before animation starts
-        config: { tension: 200, friction: 20 },
-      });
-    
+const Introduction: React.FC = () => {  
   return (
     <div className="min-h-screen pb-12 pt-0 md:pt-6">
       <div className="max-w-5xl mx-auto px-6">
